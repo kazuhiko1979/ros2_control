@@ -1,0 +1,27 @@
+
+# --- agent-os linkage: LOCAL ONLY / never push OS info ---
+.agent
+.agent-os/
+*.generated.md
+.agent-os.lock
+agent-bootstrap.sh
+.agent-stack.json
+
+# ROS 2 / colcon の生成物
+/build/
+/install/
+/log/
+
+# ローカルの AI 設定と生成物
+/.agent-loop/
+/.claude/
+/.codex/
+/.gemini/
+/.serena/
+/.vscode/
+/.mcp.json
+/harness-profile.yaml
+
+# ローカルの環境設定
+.env
+.env.*
